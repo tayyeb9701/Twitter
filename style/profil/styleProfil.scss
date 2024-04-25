@@ -1,0 +1,33 @@
+@import "../lib/reset.scss";
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgb(28, 28, 28);
+}
+
+nav {
+    background-color: #4a4747;
+    padding: 10px 0;
+    text-align: center;
+
+    a {
+        color: white;
+        text-decoration: none;
+        margin: 0 10px;
+
+        &:hover {
+            color: #ccc;
+        }
+    }
+}
+
+main {
+    max-width: 600px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
